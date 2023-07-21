@@ -11,7 +11,7 @@ reddit = praw.Reddit('masterhack') #set login information in the praw.ini file
 footer = "\n\n---\n\n^^I&#32;am&#32;a&#32;bot&#32;created&#32;by&#32;[u/drewman301](https://www.youtube.com/watch?v=dQw4w9WgXcQ)&#32;and&#32;this&#32;action&#32;was&#32;performed&#32;automatically.&#32;AI&#32;is&#32;involved&#32;so&#32;please&#32;DM&#32;drewman301&#32;if&#32;it&#32;produces&#32;anything&#32;offensive&#32;and&#32;I&#32;will&#32;delete&#32;it.&#32;Original&#32;idea&#32;by&#32;[u/circuit10](https://www.youtube.com/watch?v=dQw4w9WgXcQ).&#32;Jargon&#32;from&#32;[http://shinytoylabs.com/jargon/](https://www.youtube.com/watch?v=dQw4w9WgXcQ)."
 home_subreddit = 'masterhacker'
 account_name = "masterhackerbot"
-admin_users = ['drewman301', 'circuit10', 'snorlaxmaster65', 'spez'] # not implemented yet
+admin_users = ['drewman301', 'circuit10', 'snorlaxmaster65'] # not implemented yet
 wait_time = 10 # how many minutes to wait between comments (to avoid spamming)
 
 subreddit = reddit.subreddit(home_subreddit)
