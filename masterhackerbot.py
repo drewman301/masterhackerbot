@@ -6,7 +6,7 @@ def generate_jargon(title):
   openai.api_key = os.getenv("OPENAI_API_KEY")
 
   response = openai.Completion.create(
-    model="text-davinci-003",
+    model="davinci-002",
     prompt="masterhackerbot is a bot on Reddit that responds with random tech <jargon> which will be automatically replaced later.\nThe <jargon> is a very long verb phrase and should be followed by a comma and a dependent clause.\n\nExample: To perform this action, you must <jargon>, which will allow you to perform it.\n\nTitle: \"Epic TikTok biohacker\"\nmasterhackerbot: To epicly hack TikTok, you have to <jargon>, allowing you to be a TikTok biohacker.\n\nTitle: \"" + title + "\"\nmasterhackerbot:",
     temperature=0.32,
     max_tokens=256,
